@@ -1,0 +1,168 @@
+.chart-main-box{
+    /* background-color: purple; */
+    margin-top: -21rem;
+}
+.chart{
+    width:90%;
+    position: relative;
+    left:0px
+}
+.chart-one-box{
+    /* background-color: orange; */
+    width:23%;
+    position: relative;
+    left: 100px;
+    top:-50px
+}
+
+.chart-two-box{
+    /* background-color: orange; */
+    width:23%;
+    position: relative;
+    left: 508px;
+    top:-320px
+}
+/* media queries */
+
+@media only screen and (max-width: 575px) {
+    .chart-main-box{
+        /* background-color: purple; */
+        margin-top:-17rem;
+        left:0rem;
+        position: relative;
+    }
+    .chart{
+        width:95%;
+    }
+    .chart-one-box{
+        /* display: none; */
+        /* background-color: pink; */
+        width:50%;
+        position: relative;
+        left: 20px;
+        top:-15px;
+    }
+    
+    .chart-two-box{
+        /* background-color: orange; */
+        width:50%;
+        position: relative;
+        left: 70px;
+        top:-320px;
+        /* display: none; */
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 386px) {
+    .chart-main-box{
+        /* background-color: purple; */
+        margin-top:-14rem;
+        left:0rem;
+        position: absolute;
+    }
+    .chart{
+        width:90%;
+    }
+    .chart-one-box{
+        /* display: none; */
+        /* background-color: pink; */
+        width:50%;
+        position: relative;
+        left: 20px;
+        top:-15px;
+    }
+    
+    .chart-two-box{
+        /* background-color: orange; */
+        width:50%;
+        position: relative;
+        left: 70px;
+        top:-320px;
+        /* display: none; */
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 576px)  and (max-width:765px){
+    .chart-main-box{
+        /* background-color: purple; */
+        margin-top:-20rem;
+        left:1.7rem;
+        position: relative;
+    }
+    .chart{
+        width:85%;
+    }
+    .chart-one-box{
+        /* display: none; */
+        font-size: 16px;
+        /* background-color: pink; */
+        width:50%;
+        position: relative;
+        left: 20px;
+        top:-15px;
+    }
+    
+    .chart-two-box{
+        font-size: 16px;
+        /* background-color: orange; */
+        width:50%;
+        position: relative;
+        left: 70px;
+        top:-320px;
+        /* display: none; */
+    }
+
+}
+
+@media only screen and (min-width: 765px)  and (max-width:992px){
+    .chart-main-box{
+        /* background-color: purple; */
+        margin-top:-26rem;
+        left:3rem;
+        position: relative;
+    }
+    .chart{
+        width:80%;
+    }
+    .chart-one-box{
+        /* display: none; */
+        font-size: 16px;
+        /* background-color: pink; */
+        width:50%;
+        position: relative;
+        left: 20px;
+        top:-15px;
+    }
+    
+    .chart-two-box{
+        font-size: 16px;
+        /* background-color: orange; */
+        width:50%;
+        position: absolute;
+        left: 150px;
+        top:-40px;
+        /* display: none; */
+    }
+
+}
+
+@media only screen and (min-width:1200px) and (max-width:1382px){
+    .chart-main-box{
+        /* background-color: purple; */
+        margin-top: -18rem;
+    }
+    
+    
+    
+    .chart-two-box{
+        /* background-color: orange; */
+        width:23%;
+        position: relative;
+        left: 508px;
+        top:-290px
+    }
+}

@@ -1,0 +1,41 @@
+.schedule-btn-box{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+.schedule-btn-box button{
+    background-color: black;
+    padding:1rem 2.5rem;
+    color:#fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;  
+    cursor: pointer;
+    transition: 0.8s !important;
+}
+.schedule-btn-box button:hover{
+    transform: translateY(10px) !important;
+    transition: 0.8s ease-in-out !important;
+    opacity: .9;
+}
+
+@media screen and (min-width:576px)and (max-width:992px){
+    .schedule-btn-box{
+        /* background-color: orange; */
+        display: flex;
+        justify-content: center;
+        /* position:absolute; */
+    }
+}
+@media screen and (min-width:993px)and (max-width:1440px){
+    .schedule-btn-box{
+        /* background-color: orange; */
+        display: flex;
+        justify-content: center;
+        margin-top: 11rem;
+        /* position:absolute; */
+    }
+}
+ 

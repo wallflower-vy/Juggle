@@ -1,0 +1,429 @@
+.Banner-main-box{
+    background-color:black ;
+    background-image: url(../../Images/background.png);
+    width:100%;
+    min-height: 780px;
+   
+}
+
+.hero-section{
+    /* background-color: brown; */
+    display:flex;
+    flex-flow:row;
+    justify-content: space-between;
+    height: 40rem;
+    width:100%;
+}
+.left-banner{
+    /* background-color: yellow; */
+    margin-top: 7rem;
+    height: 30rem;
+    width: 62%;
+    margin-right:2%;
+}
+.left-banner h1{
+    font-family: 'poppins';
+    font-weight: 800;
+    color:#fff;
+    font-size: 60px;
+    line-height: 90px;
+}
+.left-banner-content{
+    /* background-color: red; */
+    width:85%;
+    margin-top: 2.5rem;
+    
+}
+.left-banner-content p{
+    font-size:1.4rem;
+    font-weight: 400;
+    line-height: 37.5px;
+    color:#fff;
+    font-family: 'poppins';
+}
+.left-banner-links{
+    /* background-color: aqua; */
+    /* width:8%; */
+    margin-top: 4rem;
+}
+.left-banner-links button{
+    padding:.7rem 1rem;
+    font-size: 1.2rem;
+    /* font-weight: 500; */
+    background-color: #02A96A;
+    border: none;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:#02A96A;
+}
+.left-banner-span{
+    margin-left: 3rem;
+    font-size:1.2rem ;
+    color:#fff;
+    
+}
+.banner-icon{
+    color:#fff;
+    font-size: 1.875rem;
+}
+
+.right-banner{
+    /* background-color: blueviolet; */
+    height: 35rem;
+    width: 36%;
+    margin-top: 1.8rem;
+    position: relative;
+    align-items: left;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-end;
+}
+.pin-box{
+    position: absolute;
+    /* background-color: red; */
+    left:60rem;
+}
+.pin1{
+    position: absolute;
+    left: 6rem;
+}
+.pin2{
+    position: relative;
+    top:35rem;
+    left: 28rem;
+}
+
+
+
+
+
+/* Mobile devices */
+@media screen  and (min-width:360px) and (max-width:480px) {
+    .Banner-main-box{
+        height: 1400px;
+    }
+    .hero-section{
+        display:flex;
+        flex-flow:column;
+        position: relative;
+        height: 1300px;
+    }
+    .left-banner{
+        margin-top: 1rem;
+        height: 60rem;
+        width: 100%;
+        margin-right:0%;
+    }
+    .left-banner h1{
+        font-weight: 800;
+        font-size: 48px;
+    }
+    .left-banner-content{
+        width:100%;
+        margin-top: 1.5rem;
+    }
+    .left-banner-content p{
+        font-size:1.2rem;
+    }
+    .left-banner-links{
+        margin-top: 2rem;
+    }
+    .left-banner-links button{
+        padding:1rem;
+        font-size: 1rem;
+        display: block;
+        margin-bottom: 1rem;
+    }
+    .left-banner-span{
+        margin-left: 0rem;
+        font-size:1rem ;
+    }
+    .right-banner{
+       
+        height:28rem;
+        width: 100%;
+        margin-top: 0rem;
+        position: absolute;
+        top: 50rem;
+        justify-content: center;
+    }
+    .banner-img{
+        width: 85%;
+    }
+    .pin-box{
+        position: absolute;
+        left:0rem;
+    }
+    .pin1{
+        position: absolute;
+        left: 0rem;
+        top: 48rem;
+    }
+    .pin2{
+        position: relative;
+        top:76rem;
+        left: 18rem;
+    }
+    
+}
+@media screen  and (max-width:360px){
+    .pin2{
+        position: relative;
+        top:76rem;
+        left: 16rem;
+    }
+}
+
+
+
+
+/* for iPads, Tablets */
+@media screen  and (min-width:481px) and (max-width:764px) {
+    .Banner-main-box{
+        min-height: 1200px;
+    }
+    
+    .hero-section{
+        height:1200px;
+        
+    }
+    .left-banner{
+        
+        margin-top: 2rem;
+        height: 30rem;
+        width: 100%;
+        margin-right:0%;
+    }
+    .left-banner h1{
+       
+        font-size: 48px;
+        line-height: 80px;
+    }
+    .left-banner-content{
+       
+        width:100%;
+        margin-top: 2rem;
+        
+    }
+    .left-banner-content p{
+        font-size:1.3rem;
+    }
+   
+    .left-banner-links button{
+        padding:1rem 1rem;
+        font-size: 1.3rem;
+    }
+    .left-banner-span{
+        margin-left: 3rem;
+        font-size:1.3rem ;
+        color:#fff;
+    }
+    .banner-icon{
+        color:#fff;
+        font-size: 1.875rem;
+    }
+    
+    .right-banner{
+        /* background-color: blueviolet; */
+        height: 34rem;
+        width: 90%;
+        margin-top: 1.8rem;
+        position: absolute;
+        top: 43rem;
+        justify-content: center;
+    }
+    .pin-box{
+        position: absolute;
+        /* background-color: red; */
+        left:0rem;
+    }
+    .pin1{
+        position: absolute;
+        left: 5.5rem;
+        top: 38rem;
+    }
+    .pin2{
+        position: absolute;
+        top:72rem;
+        left: 28rem;
+    }
+}
+
+@media screen and (min-width:765px) and (max-width:992px){
+    .Banner-main-box{
+        min-height: 1200px;
+    }
+    
+    .hero-section{
+        height:1200px;
+        
+    }
+    .left-banner{
+        /* background-color: yellow; */
+        margin-top: 2rem;
+        height: 30rem;
+        width: 100%;
+        margin-right:0%;
+    }
+    .left-banner h1{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 80px;
+    }
+    .left-banner-content{
+        /* background-color: red; */
+        width:100%;
+        margin-top: 2rem;
+        
+    }
+    .left-banner-content p{
+        font-size:1.3rem;
+        font-weight: 400;
+       
+    }
+   
+    .left-banner-links button{
+        padding:1rem 1rem;
+        font-size: 1.3rem;
+       
+    }
+   
+    .left-banner-span{
+        margin-left: 3rem;
+        font-size:1.3rem ;
+        color:#fff;
+    }
+    .banner-icon{
+        color:#fff;
+        font-size: 1.875rem;
+    }
+    
+    .right-banner{
+        /* background-color: blueviolet; */
+        height: 34rem;
+        width: 90%;
+        margin-top: 1.8rem;
+        position: absolute;
+        top: 43rem;
+        justify-content: center;
+    }
+    .pin-box{
+        position: absolute;
+        /* background-color: red; */
+        left:0rem;
+    }
+    .pin1{
+        position: absolute;
+        left: 11rem;
+        top: 35rem;
+    }
+    .pin2{
+        position: absolute;
+        top:69rem;
+        left: 33rem;
+    }
+   
+}
+@media screen and (min-width:830px) and (max-width:992px){
+   
+    .pin1{
+        position: absolute;
+        left: 13.5rem;
+        top: 35rem;
+    }
+    .pin2{
+        position: absolute;
+        top:69rem;
+        left: 36rem;
+    }
+}
+/* Small screens, laptops */
+
+/* Desktops, large screens */
+@media screen  and (min-width:993px) and (max-width:1440px) {
+    .Banner-main-box{
+        background-color:black ;
+        background-image: url(../../Images/background.png);
+        width:100%;
+        min-height: 850px;
+       
+    }
+    
+    .hero-section{
+        /* background-color: brown; */
+        display:flex;
+        flex-flow:row;
+        justify-content: space-between;
+        height: 40rem;
+        width:100%;
+    }
+    .pin-box{
+        position: absolute;
+        /* background-color: red; */
+        left:60rem;
+    }
+    .pin1{
+        position: absolute;
+        left: 0rem;
+    }
+    .pin2{
+        position: relative;
+        top:35rem;
+        left: 24rem;
+    }
+    
+}
+/* Desktops, large screens */
+@media screen  and (min-width:1280px) and (max-width:1439px) {
+    .Banner-main-box{
+        min-height: 780px;
+    }
+    
+    .hero-section{
+        height: 41rem;
+        width:100%;
+    }
+    .left-banner{
+        /* background-color: yellow; */
+        margin-top: 7rem;
+        height: 35rem;
+        width: 70%;
+        margin-right:0;
+    }
+    .left-banner h1{
+        
+        font-size: 54px;
+        line-height: 90px;
+    }
+    .left-banner-content{
+        
+        width:90%;
+    }
+    .left-banner-content p{
+        font-size:1.3rem;
+    }
+   
+    .right-banner{
+       
+        height: 35rem;
+        width: 40%;
+       
+    }
+    .pin-box{
+        position: absolute;
+        left:60rem;
+    }
+    .pin1{
+        position:absolute;
+        left:-10rem;
+    }
+    .pin2{
+        position: relative;
+        top:35rem;
+        left: 12rem;
+    } 
+}

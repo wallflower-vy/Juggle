@@ -1,0 +1,366 @@
+.how-it-works-box{
+    /* background-color: green; */
+    margin-top: 13rem;
+    /* padding-top: 4rem; */
+}
+.howit-works-heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 45px;
+    color: #000000;
+    margin-top: 3rem;
+}
+.howitworks-paragraph{
+    font-family: 'poppins';
+    font-weight:400;
+    font-size: 18px;
+    line-height:30px;
+    color:#00160E;
+
+
+}
+.howit-works-box{
+    /* background-color: green; */
+    width:85%;
+    margin-top: 2rem;
+
+}
+.howit-works-btn{
+    background-color: #000000;
+    cursor: pointer;
+    border: none;
+    color:#FFF;
+    padding: 1rem 1.5rem;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'poppins';
+    margin-top: 1rem;
+    /* transition: 0.8s !important; */
+   
+}
+
+.howit-works-btn:hover{
+    
+    transform: translateY(10px) !important;
+    transition: 0.8s ease-in-out !important;
+    
+}
+.big-circle{
+    background-color: #F5F8FF;;
+    width: 534px;
+    height: 534px;
+    border-radius: 50%;
+    margin-top: -6rem;
+    /* box-shadow: 10px 10px 2px #ccced2; */
+    /* position: absolute; */
+    
+}
+.big-circle-text-box{
+    /* background-color: orange; */
+    width:58%;
+    position: relative;
+    top:290px;
+    left:100px;
+    font-family: 'poppins';
+
+}
+.big-circle-heading{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    color:#000000;
+    font-family: 'poppins';
+}
+.big-circle-text{
+    font-size: 15px !important;
+    color:#00160E;
+    font-weight: 400;
+    font-family: 'poppins';
+}
+
+
+
+/* media queries */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 575px) {
+    .how-it-works-box{
+        /* background-color: green; */
+        display:flex;
+        flex-flow:row;
+        justify-content: center;
+        text-align:center;
+        align-items: center;
+        margin-top: 1rem;
+        overflow-y: hidden;
+        /* padding-top: 4rem; */
+    }
+   
+    .howit-works-box{
+        /* background-color: blue; */
+        width:100%;
+        margin-top: 1rem;
+    
+    }
+    .howit-works-btn{
+        background-color: #000000;
+        color:#FFF;
+        padding: 1rem 1.5rem;
+        font-weight: 500;
+        font-size: 20px;
+        font-size: 'poppins';
+        margin-top: 1rem;
+    }
+    .big-circle-main-box{
+        /* background-color: red; */
+        margin-top: 1rem;
+        align-items: center;
+        padding: 1rem 0rem;
+
+        display: flex;
+        justify-content: center;
+    }
+    .big-circle{
+        background-color: #F5F8FF;
+        width:360px;
+        height: 360px;
+       
+        /* width: 534px;
+        height: 534px; */
+        border-radius: 50%;
+        margin-top: 0rem;
+        /* position: absolute; */
+        
+    }
+    .big-circle-text-box{
+        /* background-color: red; */
+        width:58%;
+        position: relative;
+        top:150px;
+        /* display: none; */
+        left:160px;
+        font-family: 'poppins';
+    
+    }
+    .big-circle-heading{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 30px;
+        color:#000000;
+        font-family: 'poppins';
+    }
+    .big-circle-text{
+        font-size: 12px !important;
+        color:#00160E;
+        font-weight: 400;
+        font-family: 'poppins';
+    }
+    
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 386px) {
+    .how-it-works-box{
+        /* background-color: green; */
+       
+        margin-top: .5rem;
+        overflow:hidden;
+        padding: 0rem;
+    }
+
+    .big-circle-main-box{
+        /* background-color: red; */
+        width: 100%;
+        margin-top: 3rem;
+        align-items: none;
+        padding: 0rem 0rem;
+
+        display: block;
+        justify-content: center;
+    }
+    .big-circle{
+        background-color: #F5F8FF;
+        width:325px;
+        height: 325px;
+       
+        /* width: 534px;
+        height: 534px; */
+        border-radius: 50%;
+        margin-top: 0rem;
+        /* position: absolute; */
+        
+    }
+    .big-circle-text-box{
+        /* background-color: red; */
+        width:50%;
+        position: relative;
+        top:150px;
+        /* display: none; */
+        left:160px;
+        font-family: 'poppins';
+    
+    }
+    .big-circle-heading{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 30px;
+        color:#000000;
+        font-family: 'poppins';
+    }
+    .big-circle-text{
+        font-size: 12px !important;
+        color:#00160E;
+        font-weight: 400;
+        font-family: 'poppins';
+    }
+    
+   
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width:576px) and (max-width:765px){
+    .how-it-works-box{
+        /* background-color: green; */
+        
+        margin-top: 2rem;
+        overflow: none;
+
+        /* padding-top: 4rem; */
+    }
+    .how-it-works-left-box{
+        /* background-color: orange; */
+        width: 100%;
+        text-align: center;
+       
+    }
+   /* .how-it-works-container{
+    background-color: aquamarine;
+    display:flex !important;
+    flex-direction:column !important;
+        
+   } */
+    .howit-works-box{
+        /* background-color: blue; */
+        width:100%;
+        display: none !important;
+        margin-top: 1rem;
+    
+    }
+
+    .big-circle-main-box{
+        /* background-color: red; */
+        display: flex;
+        
+        width: 0%;
+        margin-top: 1rem;
+        align-items: center;
+        padding: 0rem 0rem;
+        /* display: block !important; */
+        width: 100%;
+        justify-content: center;
+    }
+    .big-circle{
+        background-color: #F5F8FF;
+        width:470px;
+        height: 470px;
+       
+        /* width: 534px;
+        height: 534px; */
+        border-radius: 50%;
+        margin-top: 0rem;
+        /* position: absolute; */
+        
+    }
+    .big-circle-text-box{
+        /* background-color: red; */
+        width:50%;
+        position: relative;
+        top:270px;
+        /* display: none; */
+        left:230px;
+        font-family: 'poppins';
+    
+    }
+    .big-circle-heading{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 30px;
+        color:#000000;
+        font-family: 'poppins';
+    }
+    .big-circle-text{
+        font-size: 12px !important;
+        color:#00160E;
+        font-weight: 400;
+        font-family: 'poppins';
+    }
+    
+    
+}
+
+
+@media only screen and (min-width:765px) and (max-width:992px){
+    .how-it-works-box{
+        /* background-color: green; */
+        margin-top: 3rem;
+        /* padding-top: 4rem; */
+    }
+
+    .howit-works-box{
+        /* background-color: red; */
+        width:100%;
+        /* margin-top: 2rem; */
+    
+    }
+    
+    
+    .big-circle{
+        background-color: #F5F8FF;
+        width: 600px;
+        /* padding: 3rem; */
+        height: 600px;
+        border-radius: 50%;
+        margin-top: 0rem;
+        /* box-shadow: 10px 10px 2px #ccced2; */
+        /* position: absolute; */
+        
+    }
+    .big-circle-main-box{
+        /* background-color: red; */
+        display: flex;
+        
+        width:100%;
+        margin-top: 3rem;
+        /* align-items: center;
+        padding: 0rem 0rem; */
+        /* display: block !important; */
+        width: 100%;
+        justify-content: center;
+    }
+    .big-circle-text-box{
+        /* background-color: orange; */
+        width:58%;
+        position: absolute;
+        top:340px;
+        left:300px;
+        font-family: 'poppins';
+    
+    }
+    /* .big-circle-heading{
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 30px;
+        color:#000000;
+        font-family: 'poppins';
+    }
+    .big-circle-text{
+        font-size: 15px !important;
+        color:#00160E;
+        font-weight: 400;
+        font-family: 'poppins';
+    } */
+    
+}

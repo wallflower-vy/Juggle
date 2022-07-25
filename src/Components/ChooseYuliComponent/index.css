@@ -1,0 +1,76 @@
+.choose-yuli-box{
+    margin-top: -4rem;
+    /* padding-top: -4rem !important; */
+    /* background-color: blue; */
+}
+.choose-yuli-text{
+    width:55%;
+    /* background-color: red; */
+}
+
+@media only screen and (max-width: 575px) {
+    .choose-yuli-box{
+        margin-top: -7rem;
+        /* padding-top: -4rem !important; */
+        /* background-color: blue; */
+    }
+    .choose-yuli-text{
+        width:100%;
+        /* background-color: red; */
+    }
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 386px) {
+    .choose-yuli-box{
+        margin-top: 5rem;
+        /* width: 90%; */
+        padding: 0rem 1rem;
+        /* padding-top: -4rem !important; */
+        /* background-color: blue; */
+    }
+    .choose-yuli-text{
+        width:100%;
+        /* background-color: red; */
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 576px) and (max-width:765px){
+    .choose-yuli-box{
+        margin-top: 2rem;
+        /* width: 90%; */
+        padding: 0rem 1rem;
+        /* padding-top: -4rem !important; */
+        /* background-color: blue; */
+    }
+    .choose-yuli-text{
+        width:100%;
+        /* background-color: red; */
+    }
+    .yuli-choose-head{
+        /* background-color: aquamarine; */
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 765px) and (max-width:1200px){
+    .choose-yuli-box{
+        margin-top: 10rem;
+        /* width: 90%; */
+        padding: 0rem 1rem;
+        /* padding-top: -4rem !important; */
+        /* background-color: blue; */
+    }
+    .choose-yuli-text{
+        width:100%;
+        /* background-color: red; */
+    }
+    .yuli-choose-head{
+        /* background-color: aquamarine; */
+        width: 100%;
+    }
+}
