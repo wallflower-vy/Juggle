@@ -24,7 +24,8 @@ function BannerComponent() {
                     </div>
                     <div className="right-banner">
                         <img src={banner} className="banner-img" alt=""/>
-                        
+                        {/* <img src={pin} alt="" className='pin1' /> */}
+                        {/* <img src={pin1} alt="" className='pin2' /> */}
                     </div>
                     <div className='pin-box'>
                     <img src={pin} alt="" className='pin1' />

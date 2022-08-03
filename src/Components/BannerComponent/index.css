@@ -85,16 +85,18 @@ a:hover{
 .pin-box{
     position: absolute;
     /* background-color: red; */
-    left:60rem;
+    /* left:60rem; */
 }
 .pin1{
     position: absolute;
-    left: 6rem;
+    left: 55.5rem;
+   
 }
 .pin2{
-    position: relative;
-    top:35rem;
-    left: 28rem;
+    position: absolute;
+    left: 78rem;
+    top:35rem
+    
 }
 
 
@@ -154,10 +156,10 @@ a:hover{
     .banner-img{
         width: 85%;
     }
-    .pin-box{
+    /* .pin-box{
         position: absolute;
         left:0rem;
-    }
+    } */
     .pin1{
         position: absolute;
         left: 0rem;
@@ -166,7 +168,7 @@ a:hover{
     .pin2{
         position: relative;
         top:76rem;
-        left: 18rem;
+        left: 18.2rem;
     }
     
 }
@@ -236,21 +238,13 @@ a:hover{
         top: 43rem;
         justify-content: center;
     }
-    .pin-box{
-        position: absolute;
-        /* background-color: red; */
-        left:0rem;
-    }
     .pin1{
-        position: absolute;
-        left: 5.5rem;
-        top: 38rem;
+        display: none;
     }
     .pin2{
-        position: absolute;
-        top:72rem;
-        left: 28rem;
+        display: none;
     }
+    
 }
 
 @media screen and (min-width:765px) and (max-width:992px){
@@ -306,40 +300,28 @@ a:hover{
         /* background-color: blueviolet; */
         height: 34rem;
         width: 90%;
-        margin-top: 1.8rem;
+        margin-top: 0rem;
         position: absolute;
-        top: 43rem;
+        top: 36rem;
         justify-content: center;
     }
-    .pin-box{
-        position: absolute;
-        /* background-color: red; */
-        left:0rem;
-    }
+    
     .pin1{
-        position: absolute;
-        left: 11rem;
-        top: 35rem;
+        display: none;
     }
     .pin2{
-        position: absolute;
-        top:69rem;
-        left: 33rem;
+        display: none;
     }
    
 }
 @media screen and (min-width:830px) and (max-width:992px){
-   
     .pin1{
-        position: absolute;
-        left: 13.5rem;
-        top: 35rem;
+        display: none;
     }
     .pin2{
-        position: absolute;
-        top:69rem;
-        left: 36rem;
+        display: none;
     }
+   
 }
 /* Small screens, laptops */
 

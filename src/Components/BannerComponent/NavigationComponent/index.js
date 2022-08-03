@@ -1,35 +1,33 @@
-import React, { useState } from 'react';
-import './index.css';
-import logo from '../../../Images/logo/Juggle.png'
-import {FaBars} from 'react-icons/fa';
-import {ImCross} from 'react-icons/im';
+import React, { useState } from "react";
+import { useRef } from "react";
+import "./index.css";
+import {Container, Navbar,Offcanvas,NavDropdown,Nav,Form, Button} from 'react-bootstrap';
+import {FaBars, FaTimes} from "react-icons/fa";
+import expand from 'react-bootstrap'
+import logo from "../../../Images/logo/Juggle.png";
+import logoblack from '../../../Images/Juggle Black.png'
+// import { FaBars } from "react-icons/fa";
+import { GrFormClose } from "react-icons/gr";
+
 // import { useState } from 'react';
 
-
-
 function NavigationComponent() {
-  const [mobile, setMobile] =useState(true)
-  const toggle=()=>{
-    if(mobile===true){
-      document.getElementsByClassName('nav-list-mobile').style.display="none";
-    }
+ 
+  const navRef=useRef();
+  const shownavbar =()=>{
+    navRef.current.classList.toggle('responsive_nav')
   }
-  return (
-    <div className='navi-bar'>
-       <div className='logo-box' >
-            <img src={logo} className='logo'/>
-       </div>
-       <div className= { mobile ? "nav-list-mobile" : 'navi-item-box'} onClick={()=>setMobile(false)}>
-           
-            <button className='sign-up-btn'>Sign Up</button>
-           
-       </div>
-       <button className='mobile-menu-icon' onClick={()=>setMobile(!mobile)} >
-       {mobile ? <FaBars /> : <ImCross className='cross'/>  }
-      
-       </button>
-    </div>
-  )
+    return(
+      <header>
+        <img src={logo} className='nav-logo'/>
+        <nav ref={navRef}>
+        <img src={logoblack} className='nav-logoblack'/>
+          <button className="signup-btn">Sign Up</button>
+          <button className="nav-btn nav-close-btn" onClick={shownavbar}><FaTimes /></button>
+        </nav>
+        < button className="nav-btn " onClick={shownavbar}><FaBars /></button>
+      </header>
+    )
 }
 
 export default NavigationComponent;
