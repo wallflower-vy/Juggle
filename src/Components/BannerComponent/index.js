@@ -23,8 +23,8 @@ function BannerComponent() {
                         </div>
                     </div>
                     <div className="right-banner">
-                        <img src={banner} className="banner-img"/>
-                        <img src={pin} alt="" className='pin1' />
+                        <img src={banner} alt="" className="banner-img"/>
+                        {/* <img src={pin} alt="" className='pin1' /> */}
                        
                     </div>
                     <div className='pin-box'>

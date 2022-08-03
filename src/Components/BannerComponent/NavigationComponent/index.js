@@ -8,9 +8,6 @@ import logo from "../../../Images/logo/Juggle.png";
 import logoblack from '../../../Images/Juggle Black.png'
 
 
-
-// import { useState } from 'react';
-
 function NavigationComponent() {
  
   const navRef=useRef();
@@ -21,7 +18,7 @@ function NavigationComponent() {
       <header>
         <img src={logo} alt='' className='nav-logo'/>
         <nav ref={navRef}>
-        <img src={logoblack} className='nav-logoblack'/>
+        <img src={logoblack} alt="" className='nav-logoblack'/>
           <button className="signup-btn">Sign Up</button>
           <button className="nav-btn nav-close-btn" onClick={shownavbar}><FaTimes /></button>
         </nav>
